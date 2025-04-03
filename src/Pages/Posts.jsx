@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import CharacterContext from "../Contexts/CharacterContext";
 import Cards from "../Components/Cards"
-import mtvCartoons from "../Data/Characters"
+//import mtvCartoons from "../Data/Characters"
+const { mtvCartoons } = useContext(CharacterContext)
 
-export default function Posts() {
+
+export default function Posts({ mtvCartoons }) {
     return (
         <div>
             <h1> Cartoon nights</h1>
