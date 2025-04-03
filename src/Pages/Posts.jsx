@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CharacterContext } from "./Context/PostsContext"
+import CharacterContext from "../Contexts/CharacterContext";
 import Cards from "../Components/Cards"
 import mtvCartoons from "../Data/Characters"
 
