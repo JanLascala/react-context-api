@@ -1,5 +1,5 @@
 import { createContext } from "react";
 
-export const PostsContext = createContext();
+export const CharacterContext = createContext();
 
-export default PostsContext
+export default CharacterContextContext

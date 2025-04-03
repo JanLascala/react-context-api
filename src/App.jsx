@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //layout import
 import DefaultLayout from "./DefaultLayout/DefaultLayout";
 //import context 
-import PostsContext from "./Context/PostsContext";
+import CharacterContext from "./Context/PostsContext";
 //import data
 import mtvCartoons from "./Data/Characters";
 //import pages
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <PostsContext.Provider value={{ posts: mtvCartoons }}>
+      <CharacterContext.Provider value={{ posts: mtvCartoons }}>
         <BrowserRouter>
           <Routes>
             <Route Component={DefaultLayout}>
@@ -26,7 +26,7 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-      </PostsContext.Provider>
+      </CharacterContext.Provider>
     </>
   )
 }
