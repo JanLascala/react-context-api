@@ -1,0 +1,58 @@
+@import 'bootstrap';
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: chocolate;
+
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+}
+
+main {
+  .Jumbo {
+    height: auto;
+    width: 1000px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.horrorgeeklife.com%2Fwp-content%2Fuploads%2F2019%2F05%2Fdaria-watching-recommendation-videoSixteenByNineJumbo1600.jpg&f=1&ipt=9f7bfc82206dee0e015d6735c97e91368b1c6f3779bc4e69aaf17e8137bab45e);
+    background-size: cover;
+  }
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.aboutMTV {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.XHkBa26-sIhqStjowsf9YgHaEK%26pid%3DApi&f=1&ipt=11946e3d2d63b93ce6204eb7a1cbc8f5883eb54a6f3b671056d49141b9b3ab62&ipo=images);
+
+}
+
+.AboutP {
+  background-color: rgba(0, 0, 0, 0.222);
+}
+
+.portrait {
+  width: 500px;
+  height: auto;
+
+}
