@@ -1,8 +1,15 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import mtvCartoons from "../Data/Characters";
+//context
+import { useContext } from "react";
+import CharacterContext from "../Contexts/CharacterContext";
+
+//import mtvCartoons from "../Data/Characters";
 
 export default function Post() {
+    const { mtvCartoons } = useContext(CharacterContext)
+
+
     const { id } = useParams();
 
     const cartoon = mtvCartoons.find(cartoon => cartoon.id === parseInt(id));
