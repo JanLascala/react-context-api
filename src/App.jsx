@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <CharacterContext.Provider value={mtvCartoons}>
+      <CharacterContext.Provider value={{ mtvCartoons }}>
         <BrowserRouter>
           <Routes>
             <Route Component={DefaultLayout}>
